@@ -26,7 +26,7 @@ processor = AutoProcessor.from_pretrained(encoder_model)
 tokenizer = AutoTokenizer.from_pretrained(decoder_model)
 
 # Load and preprocess an image
-image_path = r"C:\\Users\\Srujan Topalle\\Desktop\\Deep learning project\\test2017\\000000000180.jpg"
+image_path = r"C:\\Users\\username\\Desktop\\Deep learning project\\test2017\\000000000180.jpg"
 image = Image.open(image_path)
 if image.mode != "RGB":
     image = image.convert(mode="RGB")
