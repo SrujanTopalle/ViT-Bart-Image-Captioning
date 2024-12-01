@@ -12,7 +12,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 # Load and preprocess the image
-image = Image.open(r"C:\\Users\\Srujan Topalle\\Desktop\\Deep learning project\\test2017\\000000000180.jpg")
+image = Image.open(r"C:\\Users\\username\\Desktop\\Deep learning project\\test2017\\000000000180.jpg")
 if image.mode != "RGB":
     image = image.convert(mode="RGB")
 pixel_values = processor(images=image, return_tensors="pt").pixel_values.to(device)
