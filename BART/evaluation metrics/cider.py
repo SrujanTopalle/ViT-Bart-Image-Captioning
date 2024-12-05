@@ -70,7 +70,7 @@ if __name__ == "__main__":
             try:
                 cider_score = compute_cider(reference_captions, generated_caption)
                 all_cider_scores[image_id] = cider_score
-                print(f"Image ID: {image_id}, CIDEr Score: {cider_score}")
+                #print(f"Image ID: {image_id}, CIDEr Score: {cider_score}")
             except Exception as e:
                 print(f"Error computing CIDEr for image_id {image_id}: {e}")
         else:
