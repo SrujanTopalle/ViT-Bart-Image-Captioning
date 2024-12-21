@@ -12,11 +12,15 @@ This project aims at generating accurate and meaningful image captions, that can
 * Trained and fine-tuned on the MS COCO 2017 dataset.
 * Some of the evaluation metrics included are BLEU, ROUGE, and METEOR.
 
-## Installation 
-### Prerequisites
+
+## Prerequisites
 * Python 3.8 or higher.
 * PyTorch 2.0 or higher.
 * CUDA.
+
+## Architecture
+![IMG-20241221-WA0016](https://github.com/user-attachments/assets/45da9f80-4e16-44b6-8ab4-a570310ea472)
+
 
 
   
