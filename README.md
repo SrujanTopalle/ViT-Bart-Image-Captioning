@@ -6,9 +6,9 @@ This repository showcases the implementation of an image captioning model that c
 This project aims at generating accurate and meaningful image captions, that can be applied in tasks such as visual storytelling, accessibility for visually impaired individuals, and multimedia indexing.
 
 
-##features
+**##features**
 * uses Vision Transformer(ViT) for image feature extraction.
 * BART, a pre-trained sequence-to-sequence model, for caption generation.
 * Trained and fine-tuned on the MS COCO 2017 dataset.
 * Some of the evaluation metrics included are BLEU, ROUGE, and METEOR.
-* 
+  
