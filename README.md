@@ -6,6 +6,12 @@ This repository showcases the implementation of an image captioning model that c
 This project aims at generating accurate and meaningful image captions, that can be applied in tasks such as visual storytelling, accessibility for visually impaired individuals, and multimedia indexing.
 
 
+## Installation
+```
+pip install -r requirements.txt
+```
+
+
 ## Features
 * Utilizes the Vision Transformer(ViT) for feature extraction of the images.
 * BART, a pre-trained sequence-to-sequence model, for caption generation.
@@ -17,6 +23,9 @@ This project aims at generating accurate and meaningful image captions, that can
 * Python 3.8 or higher.
 * PyTorch 2.0 or higher.
 * CUDA.
+
+## Model Weights and Config files
+[Model Weights and Config files](https://huggingface.co/SrujanTopalle/ViT-Bart_Image_Captioner)
 
 ## Architecture
 ![IMG-20241221-WA0016](https://github.com/user-attachments/assets/45da9f80-4e16-44b6-8ab4-a570310ea472)
