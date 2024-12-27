@@ -25,7 +25,7 @@ pip install -r requirements.txt
 * CUDA.
 
 ## Model Weights and Config files
-[Model Weights and Config files](https://huggingface.co/SrujanTopalle/ViT-Bart_Image_Captioner)
+[Model Weights and Config files](https://huggingface.co/SrujanTopalle/ViT-Bart_Image_Captioner/tree/main)
 
 ## Architecture
 ![IMG-20241221-WA0016](https://github.com/user-attachments/assets/45da9f80-4e16-44b6-8ab4-a570310ea472)
